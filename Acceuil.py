@@ -5,13 +5,7 @@ import streamlit as st
 plt.style.use('fivethirtyeight')
 import streamlit_authenticator as stauth
 import database as db
-from PIL import Image
-from email.message import EmailMessage
-import ssl
-import smtplib
-import openpyxl
 st.set_page_config(page_title="Acceuil",page_icon="📈",layout="wide")
-
         
 html_temp = """
 <div style="background-color: #D92F21; padding:10px; border-radius:10px">
